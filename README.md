@@ -14,13 +14,11 @@
    - если $(n \pmod{100} > 20)$, то $\text{key} = n \pmod{10}$;
    - иначе $\text{key} = n \pmod{100}$.
 4. В зависимости от значения $\text{key}$ вывести результат:
-   - если $\text{key} = 1$ $\rightarrow$ вывести "$n$ копейка";
-   - если $\text{key} \in \{2, 3, 4\}$ $\rightarrow$ вывести "$n$ копейки";
-   - во всех остальных случаях $\rightarrow$ вывести "$n$ копеек".
+   - если $\text{key} = 1$ $\rightarrow$ вывести "n копейка";
+   - если $\text{key} \in \{2, 3, 4\}$ $\rightarrow$ вывести "n копейки";
+   - во всех остальных случаях $\rightarrow$ вывести "n копеек".
 5. **КОНЕЦ**
 
-Завершить работу программы с кодом возврата 0.
-Конец.
 ### Блок-схема
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/AndreyPel/homework6/blob/master/Схема6.png)
 
